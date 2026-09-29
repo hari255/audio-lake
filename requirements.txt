@@ -1,0 +1,27 @@
+# Audio Processing & DSP
+librosa
+soundfile
+numpy
+scipy
+
+# Machine Learning & Acoustic Models
+torch
+torchaudio
+onnxruntime
+silero-vad
+faster-whisper
+
+# Data Engineering & Feature Store
+pyarrow
+pandas
+polars
+duckdb
+
+# Structured Outputs & LLM Integration
+pydantic
+instructor
+openai
+
+# Utilities
+tqdm
+python-dotenv

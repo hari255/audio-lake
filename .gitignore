@@ -1,0 +1,26 @@
+# Python / Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Audio Data & Local Feature Store Artifacts
+data/raw/*
+data/feature_store/*
+!data/raw/.gitkeep
+!data/feature_store/.gitkeep
+
+# Models & Weights
+models/
+.pt
+.onnx
+.bin
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs & Testing
+*.log
+.pytest_cache/
